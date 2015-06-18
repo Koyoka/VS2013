@@ -1,0 +1,51 @@
+﻿@{
+    Layout = null;
+}
+
+@model ElevenDEMO.Web.Controllers.HomeController.objA
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    name: @ViewData["Name"]<br />
+
+        
+   @{
+       var cc = (ViewData["Obj"] as ElevenDEMO.Web.Controllers.HomeController.objA);
+       
+   }
+   @cc.B<br />
+
+    @Html.DisplayTextFor(x => x.B)<br />
+     @Html.DisplayNameFor(m => m.A)<br />
+     @Html.DisplayFor(x => x.A)<br />
+    @Html.ActionLink("link", "login", new { id = 1, Name = "ccddc" });
+
+    <br />
+    @{
+        ElevenDEMO.BizBaseData.Dtos.GetVendorsOutput aa =
+            (ViewData["vendors"] as ElevenDEMO.BizBaseData.Dtos.GetVendorsOutput);
+           
+    }
+    for
+    @for (int i = 0; i < aa.Vendors.Count; i++)
+    {
+        <p>@aa.Vendors[i].Address</p>
+    }
+    foreach
+    @foreach (var item in aa.Vendors)
+    {
+        <p>@item.Address</p>
+    }
+
+
+        <div>
+            login
+        </div>
+</body>
+</html>

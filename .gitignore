@@ -235,4 +235,4 @@ $RECYCLE.BIN/
 # =========================
 
 #ElevenDemo
-ElevenDEMO.Web/Scripts/
+**/ElevenDEMO.Web/Scripts/*

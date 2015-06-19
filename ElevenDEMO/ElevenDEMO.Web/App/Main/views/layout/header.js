@@ -9,7 +9,7 @@
 
             vm.menu = abp.nav.menus.MainMenu;
             vm.currentMenuName = $state.current.menu;
-
+            
             $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
                 vm.currentMenuName = toState.menu;
             });

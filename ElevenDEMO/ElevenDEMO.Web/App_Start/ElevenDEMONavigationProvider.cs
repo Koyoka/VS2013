@@ -16,17 +16,20 @@ namespace ElevenDEMO.Web
             context.Manager.MainMenu
                 .AddItem(
                     new MenuItemDefinition(
-                        "Home",
-                        new LocalizableString("HomePage", ElevenDEMOConsts.LocalizationSourceName),
-                        url: "#/",
-                        icon: "fa fa-home"
-                        )
-                ).AddItem(
-                    new MenuItemDefinition(
                         "About",
                         new LocalizableString("About", ElevenDEMOConsts.LocalizationSourceName),
                         url: "#/about",
+                //url: "#/about",
                         icon: "fa fa-info"
+                        )
+                )
+                .AddItem(
+                    new MenuItemDefinition(
+                        "Home",
+                        new LocalizableString("HomePage", ElevenDEMOConsts.LocalizationSourceName),
+                        //url: "",
+                        url: "#/",
+                        icon: "fa fa-home"
                         )
                 );
         }

@@ -2482,3 +2482,124 @@ DEBUG 2015-06-19 16:31:27,822 [1    ] Default                                  -
 DEBUG 2015-06-19 16:31:28,042 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
 DEBUG 2015-06-19 16:31:28,078 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElevenDEMO
 DEBUG 2015-06-19 16:31:28,081 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-06-19 17:23:31,416 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-06-19 17:23:33,377 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2015-06-19 17:23:33,381 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:23:33,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:23:33,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:23:33,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:23:33,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:23:33,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:23:33,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOApplicationModule, ElevenDEMO.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:23:33,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOCoreModule, ElevenDEMO.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:23:33,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMODataModule, ElevenDEMO.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:23:33,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.Web.ElevenDEMOWebModule, ElevenDEMO.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:23:33,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOWebApiModule, ElevenDEMO.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:23:33,390 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-06-19 17:23:35,363 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 2 classes defines auto mapping attributes
+DEBUG 2015-06-19 17:23:35,364 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElevenDEMO.BizBaseData.Dtos.VendorDto
+DEBUG 2015-06-19 17:23:35,628 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElevenDEMO.Web.Controllers.HomeController+VendorDto1
+DEBUG 2015-06-19 17:23:36,923 [1    ] Default                                  - Dynamic web api controller is created for type 'ElevenDEMO.BizBaseData.IBizBaseDataAppService' with service name 'app/bizBaseData'.
+DEBUG 2015-06-19 17:23:39,236 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2015-06-19 17:23:39,258 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElevenDEMO
+DEBUG 2015-06-19 17:23:39,259 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-06-19 17:29:10,339 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-06-19 17:29:11,894 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2015-06-19 17:29:11,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:29:11,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:29:11,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:29:11,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:29:11,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:29:11,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:29:11,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOApplicationModule, ElevenDEMO.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:29:11,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOCoreModule, ElevenDEMO.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:29:11,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMODataModule, ElevenDEMO.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:29:11,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.Web.ElevenDEMOWebModule, ElevenDEMO.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:29:11,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOWebApiModule, ElevenDEMO.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:29:11,908 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-06-19 17:29:12,945 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes defines auto mapping attributes
+DEBUG 2015-06-19 17:29:12,946 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElevenDEMO.BizBaseData.Dtos.VendorDto
+DEBUG 2015-06-19 17:29:14,299 [1    ] Default                                  - Dynamic web api controller is created for type 'ElevenDEMO.BizBaseData.IBizBaseDataAppService' with service name 'app/bizBaseData'.
+DEBUG 2015-06-19 17:29:14,866 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2015-06-19 17:29:14,872 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElevenDEMO
+DEBUG 2015-06-19 17:29:14,873 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-06-19 17:33:23,126 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-06-19 17:33:29,522 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2015-06-19 17:33:29,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:33:29,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:33:29,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:33:29,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:33:29,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:33:29,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:33:29,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOApplicationModule, ElevenDEMO.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:33:29,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOCoreModule, ElevenDEMO.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:33:29,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMODataModule, ElevenDEMO.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:33:29,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.Web.ElevenDEMOWebModule, ElevenDEMO.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:33:29,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOWebApiModule, ElevenDEMO.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:33:29,532 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-06-19 17:33:30,668 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes defines auto mapping attributes
+DEBUG 2015-06-19 17:33:30,668 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElevenDEMO.BizBaseData.Dtos.VendorDto
+DEBUG 2015-06-19 17:33:32,007 [1    ] Default                                  - Dynamic web api controller is created for type 'ElevenDEMO.BizBaseData.IBizBaseDataAppService' with service name 'app/bizBaseData'.
+DEBUG 2015-06-19 17:33:32,054 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2015-06-19 17:33:32,061 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElevenDEMO
+DEBUG 2015-06-19 17:33:32,062 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-06-19 17:46:38,870 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-06-19 17:46:40,896 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2015-06-19 17:46:40,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:46:40,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:46:40,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:46:40,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:46:40,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:46:40,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:46:40,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOApplicationModule, ElevenDEMO.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:46:40,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOCoreModule, ElevenDEMO.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:46:40,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMODataModule, ElevenDEMO.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:46:40,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.Web.ElevenDEMOWebModule, ElevenDEMO.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:46:40,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOWebApiModule, ElevenDEMO.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:46:40,915 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-06-19 17:46:42,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes defines auto mapping attributes
+DEBUG 2015-06-19 17:46:42,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElevenDEMO.BizBaseData.Dtos.VendorDto
+DEBUG 2015-06-19 17:46:44,303 [1    ] Default                                  - Dynamic web api controller is created for type 'ElevenDEMO.BizBaseData.IBizBaseDataAppService' with service name 'app/bizBaseData'.
+DEBUG 2015-06-19 17:46:44,722 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2015-06-19 17:46:44,730 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElevenDEMO
+DEBUG 2015-06-19 17:46:44,730 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-06-19 17:59:57,611 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-06-19 17:59:58,967 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2015-06-19 17:59:58,974 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:59:58,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:59:58,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:59:58,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:59:58,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:59:58,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:59:58,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOApplicationModule, ElevenDEMO.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:59:58,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOCoreModule, ElevenDEMO.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:59:58,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMODataModule, ElevenDEMO.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:59:58,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.Web.ElevenDEMOWebModule, ElevenDEMO.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:59:58,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOWebApiModule, ElevenDEMO.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 17:59:58,982 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-06-19 17:59:59,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes defines auto mapping attributes
+DEBUG 2015-06-19 17:59:59,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElevenDEMO.BizBaseData.Dtos.VendorDto
+DEBUG 2015-06-19 18:00:01,326 [1    ] Default                                  - Dynamic web api controller is created for type 'ElevenDEMO.BizBaseData.IBizBaseDataAppService' with service name 'app/bizBaseData'.
+DEBUG 2015-06-19 18:00:01,799 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2015-06-19 18:00:01,809 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElevenDEMO
+DEBUG 2015-06-19 18:00:01,810 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-06-19 18:05:17,279 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-06-19 18:05:22,314 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2015-06-19 18:05:22,319 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 18:05:22,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 18:05:22,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 18:05:22,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 18:05:22,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 18:05:22,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 18:05:22,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOApplicationModule, ElevenDEMO.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 18:05:22,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOCoreModule, ElevenDEMO.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 18:05:22,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMODataModule, ElevenDEMO.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 18:05:22,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.Web.ElevenDEMOWebModule, ElevenDEMO.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 18:05:22,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElevenDEMO.ElevenDEMOWebApiModule, ElevenDEMO.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-06-19 18:05:22,328 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-06-19 18:05:23,405 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes defines auto mapping attributes
+DEBUG 2015-06-19 18:05:23,406 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElevenDEMO.BizBaseData.Dtos.VendorDto
+DEBUG 2015-06-19 18:05:24,914 [1    ] Default                                  - Dynamic web api controller is created for type 'ElevenDEMO.BizBaseData.IBizBaseDataAppService' with service name 'app/bizBaseData'.
+DEBUG 2015-06-19 18:05:24,960 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2015-06-19 18:05:24,966 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElevenDEMO
+DEBUG 2015-06-19 18:05:24,967 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb

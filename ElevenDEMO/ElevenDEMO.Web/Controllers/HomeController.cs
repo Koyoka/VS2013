@@ -26,24 +26,26 @@ namespace ElevenDEMO.Web.Controllers
             public virtual string Address { get; set; }
         }
 
-        [Abp.AutoMapper.AutoMapFrom(typeof(TblVendor1))]
-        public class VendorDto1 : EntityDto
-        {
+        #region _del
+        //[Abp.AutoMapper.AutoMapFrom(typeof(TblVendor1))]
+        //public class VendorDto1 : EntityDto
+        //{
 
-            public string VendorCode { get; set; }
+        //    public string VendorCode { get; set; }
 
-            public string Vendor { get; set; }
+        //    public string Vendor { get; set; }
 
-            public string Address { get; set; }
-        }
+        //    public string Address { get; set; }
+        //}
+        #endregion
         public ActionResult Index()
         {
 
-            List<TblVendor1> t1 = new List<TblVendor1>();
-            t1.Add(new TblVendor1() { 
-                Address = "address"
-            });
-            List<VendorDto1> t2 = Mapper.Map<List<VendorDto1>>(t1);
+            //List<TblVendor1> t1 = new List<TblVendor1>();
+            //t1.Add(new TblVendor1() { 
+            //    Address = "address"
+            //});
+            //List<VendorDto1> t2 = Mapper.Map<List<VendorDto1>>(t1);
 
 
             //List<TblVendor> query = new List<TblVendor>();
@@ -60,8 +62,8 @@ namespace ElevenDEMO.Web.Controllers
             //    Vendors = Mapper.Map<List<VendorDto>>(query)
             //};
 
-            //return View("~/App/Main/views/layout/layout.cshtml"); //Layout of the angular application.
-            return View(); //Layout of the angular application.
+            return View("~/App/Main/views/layout/layout.cshtml"); //Layout of the angular application.
+            //return View(); //Layout of the angular application.
         }
        
 

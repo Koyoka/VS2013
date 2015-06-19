@@ -7,7 +7,7 @@ namespace ElevenDEMO.EntityFramework
     public class ElevenDEMODbContext : AbpDbContext
     {
         //TODO: Define an IDbSet for each Entity...
-        public virtual IDbSet<TblVendor> Tasks { get; set; }
+        public virtual IDbSet<TblVendor> Vendors { get; set; }
 
         //Example:
         //public virtual IDbSet<User> Users { get; set; }

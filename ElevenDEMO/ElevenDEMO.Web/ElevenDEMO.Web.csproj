@@ -247,6 +247,16 @@
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
     <Content Include="Content\ui-bootstrap-csp.css" />
+    <Content Include="ElevenDemo\1.html" />
+    <Content Include="ElevenDemo\1.jpg" />
+    <Content Include="ElevenDemo\1.js" />
+    <Content Include="ElevenDemo\2.html" />
+    <Content Include="ElevenDemo\index.html" />
+    <Content Include="ElevenDemo\index.js" />
+    <Content Include="ElevenDemo\model.html" />
+    <Content Include="ElevenDemo\model.js" />
+    <Content Include="ElevenDemo\otherModel.html" />
+    <Content Include="ElevenDemo\otherModel.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -1066,6 +1076,7 @@
     <Content Include="Content\toastr.less" />
     <Content Include="Abp\Framework\styles\abp.less" />
     <Content Include="Abp\Framework\styles\abp.css.map" />
+    <Content Include="ElevenDemo\vendor.json" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.3.js" />
     <Content Include="Scripts\jquery-2.1.3.min.js" />

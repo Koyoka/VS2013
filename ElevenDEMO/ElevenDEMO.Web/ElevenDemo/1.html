@@ -1,0 +1,69 @@
+﻿<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <title>测试Angular</title>
+    <!--<link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/bootstrap.css">-->
+    <script src="Script/angular.js"></script>
+    <script src="1.js"></script>
+
+</head>
+<body>
+
+    <div ng-controller="MyController as vm">
+        <p><input ng-model="Model"></p>
+        <p>{{Model}}</p>
+        <p>{{Name}}</p>
+        <p>{{vm.Eleven}}</p>
+        <p ng-cloak>{{vm.Eleven}}页面加载完成显示</p>
+        <p ng-bind="Name">页面加载完成显示</p>
+        <p ng-bind-template="{{Name}}+{{Model}}">页面加载完成显示 表达式绑定</p>
+        ===============1
+        <p ng-repeat="v in Vendors">
+            {{v.Code}},{{v.Vendor}}
+        </p>
+        ===============2 v in Vendors | filter:Model <br />
+        <p ng-repeat="v in Vendors | filter:Model">
+            {{v.Code}},{{v.Vendor}}
+        </p>
+        ===============3 v in Vendors | filter:{Code:Model}:true <br />
+        <p ng-repeat="v in Vendors | filter:{Code:Model}:true">
+            {{v.Code}},{{v.Vendor}}
+        </p>
+        ===============4 ng-repeat="v in Vendors | orderBy:Code <br />
+        <select ng-model="orderProp">
+            <option value="Code">Code</option>
+            <option value="Vendor">Vendor</option>
+        </select>
+        <p ng-repeat="v in Vendors | orderBy:orderProp">
+            {{v.Code}},{{v.Vendor}}
+        </p>
+        ===============4 ng-repeat="v in Vendors | orderBy:Code  DESC<br />
+        {{orderProp1}}
+        <select ng-model="orderProp1">
+            <option value="Code">Code</option>
+            <option value="Vendor">Vendor</option>
+        </select>
+        <p ng-repeat="v in Vendors | orderBy:orderProp1:true">
+            {{v.Code}},{{v.Vendor}}
+        </p>
+    </div>
+    <div ng-controller="MyControllerHttpId as vm">
+        ===============5 $http service<br />
+        <p ng-repeat="v in VenderService">
+            {{v.Code}},{{v.Vendor}},<img ng-src="{{v.Img}}" width="20" height="20">
+        </p>
+    </div>
+    <script src="http://ccccccccc"></script>
+    <!--<ul>
+        <li ng-repeat="phone in phones">
+            {{phone.name}}
+            <p>{{phone.snippet}}</p>
+        </li>
+    </ul>-->
+
+
+
+</body>
+</html>

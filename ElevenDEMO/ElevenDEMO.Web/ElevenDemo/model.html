@@ -1,0 +1,40 @@
+<div ng-controller="modelMobule.myController as vm">
+    <p><input ng-model="Model"></p>
+    <p>{{Model}}</p>
+    <p>{{Name}}</p>
+    <p>{{vm.Eleven}}</p>
+    <p ng-cloak>{{vm.Eleven}}页面加载完成显示</p>
+    <p ng-bind="Name">页面加载完成显示</p>
+    <p ng-bind-template="{{Name}}+{{Model}}">页面加载完成显示 表达式绑定</p>
+    ===============1
+    <p ng-repeat="v in Vendors">
+        {{v.Code}},{{v.Vendor}}
+    </p>
+    ===============2 v in Vendors | filter:Model <br />
+    <p ng-repeat="v in Vendors | filter:Model">
+        {{v.Code}},{{v.Vendor}}
+    </p>
+    ===============3 v in Vendors | filter:{Code:Model}:true <br />
+    <p ng-repeat="v in Vendors | filter:{Code:Model}:true">
+        {{v.Code}},{{v.Vendor}}
+    </p>
+    ===============4 ng-repeat="v in Vendors | orderBy:Code <br />
+    <select ng-model="orderProp">
+        <option value="Code">Code</option>
+        <option value="Vendor">Vendor</option>
+    </select>
+    <p ng-repeat="v in Vendors | orderBy:orderProp">
+        {{v.Code}},{{v.Vendor}}
+    </p>
+    ===============4 ng-repeat="v in Vendors | orderBy:Code  DESC<br />
+    {{orderProp1}}
+    <select ng-model="orderProp1">
+        <option value="Code">Code</option>
+        <option value="Vendor">Vendor</option>
+    </select>
+    <p ng-repeat="v in Vendors | orderBy:orderProp1:true">
+        {{v.Code}},{{v.Vendor}}
+    </p>
+</div>
+
+<script src="http://ccccccccc"></script>

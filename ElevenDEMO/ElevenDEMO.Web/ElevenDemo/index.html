@@ -5,17 +5,99 @@
     <title>测试 Angular Index</title>
     <!--<link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/bootstrap.css">-->
+
+    <!--<script src="/Scripts/jquery-2.1.3.min.js"></script>
+    <script src="/Scripts/jquery-ui-1.11.4.min.js"></script>
+    <script src="/Scripts/modernizr-2.8.3.js"></script>
+    <script src="/Abp/Framework/scripts/utils/ie10fix.js"></script>
+    <script src="/Scripts/json2.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/moment-with-locales.min.js"></script>
+    <script src="/Scripts/jquery.blockUI.js"></script>
+    <script src="/Scripts/toastr.min.js"></script>
+    <script src="/Scripts/sweetalert/sweet-alert.min.js"></script>
+    <script src="/Scripts/others/spinjs/spin.js"></script>
+    <script src="/Scripts/others/spinjs/jquery.spin.js"></script>-->
+
+
+   
+
+    <!--<script src="/Scripts/angular-animate.min.js"></script>
+    <script src="/Scripts/angular-sanitize.min.js"></script>
+    <script src="/Scripts/angular-ui-router.min.js"></script>
+    <script src="/Scripts/angular-ui/ui-bootstrap.min.js"></script>
+    <script src="/Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+    <script src="/Scripts/angular-ui/ui-utils.min.js"></script>-->
+
+
+    <!--<script src="/Abp/Framework/scripts/abp.js"></script>
+    <script src="/Abp/Framework/scripts/libs/abp.jquery.js"></script>
+    <script src="/Abp/Framework/scripts/libs/abp.toastr.js"></script>
+    <script src="/Abp/Framework/scripts/libs/abp.blockUI.js"></script>
+    <script src="/Abp/Framework/scripts/libs/abp.spin.js"></script>
+    <script src="/Abp/Framework/scripts/libs/angularjs/abp.ng.js"></script>
+    <script src="/api/AbpServiceProxies/GetAll" type="text/javascript"></script>
+    <script src="/App/Main/app.js"></script>-->
+
+    <script src="/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/jquery-ui-1.11.4.min.js"></script>
+    <script src="/Scripts/modernizr-2.8.3.js"></script>
+    <script src="/Abp/Framework/scripts/utils/ie10fix.js"></script>
+    <script src="/Scripts/json2.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/moment-with-locales.min.js"></script>
+    <script src="/Scripts/jquery.blockUI.js"></script>
+    <script src="/Scripts/toastr.min.js"></script>
+    <script src="/Scripts/sweetalert/sweet-alert.min.js"></script>
+    <script src="/Scripts/others/spinjs/spin.js"></script>
+    <script src="/Scripts/others/spinjs/jquery.spin.js"></script>
+
+
     <script src="/Scripts/angular.js"></script>
     <script src="/Scripts/angular-route.js"></script>
+
+    <script src="/Abp/Framework/scripts/abp.js"></script>
+    <script src="/Abp/Framework/scripts/libs/abp.jquery.js"></script>
+    <script src="/Abp/Framework/scripts/libs/abp.toastr.js"></script>
+    <script src="/Abp/Framework/scripts/libs/abp.blockUI.js"></script>
+    <script src="/Abp/Framework/scripts/libs/abp.spin.js"></script>
+    <script src="/Abp/Framework/scripts/libs/angularjs/abp.ng.js"></script>
+
+    <script src="/api/AbpServiceProxies/GetAll" type="text/javascript"></script>
+    <script src="/App/Main/app.js"></script>
+
     <script src="index.js"></script>
     <script src="model.js?v=1"></script>
     <script src="otherModel.js?v=1"></script>
+
+
+
+    <script src="filter.js"></script>
+    <script src="custService.js"></script>
+
+ 
+
 </head>
 <body>
-    <a href="#/model">model</a>&nbsp;<a href="#/otherModel">otherModel</a>
-
+    <a href="#/model?a=1&b=2">model</a>&nbsp;
+    <a href="#/otherModel">otherModel</a>&nbsp;
+    <a href="#/otherModel/222?a=1">otherModel 222</a>&nbsp;
+    <a href="#/otherModel/222/sss">otherModel 222 sss</a>&nbsp;
     <div ng-view></div>
-   
+   <script>
+       function a() {
+           //debugger
+           //window.alert(abp.services.app);
+           //debugger
+           abp.services.app.bizBaseData.getVendors({
+               state: 1
+           }).done(function (data) {
+               window.alert(data);
+               //use data.tasks here...
+           });
+       }
+       //a();
+   </script>
 </body>
 
 </html>

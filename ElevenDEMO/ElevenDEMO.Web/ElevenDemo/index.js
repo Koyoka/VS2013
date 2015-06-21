@@ -3,15 +3,19 @@
 
     var appRoute = angular.module('app', [
         'ngRoute',
-        'modelMobule'//register new module
+        'modelMobule',//register new module,
+        'filterModule',
+         'serviceModule'
     ]);
     
 
     appRoute.config(['$routeProvider', function ($routeProvider) {
         $routeProvider.
-            when('/model', { templateUrl: 'model.html', controller: 'modelMobule.myController' }).
-            when('/otherModel', { templateUrl: 'otherModel.html', controller: 'otherModelModule.mycontroller' }).
-            otherwise({ redirectTo: '/model' });
+            when('/model', { templateUrl: 'model.html', controller: 'modelMobule.myController as vm' }).
+            when('/otherModel', { templateUrl: 'otherModel.html', controller: 'otherModelModule.mycontroller as vm' }).
+            when('/otherModel/:Id', { templateUrl: 'otherModel.html', controller: 'otherModelModule.mycontroller' }).
+            when('/otherModel/:Id/:cc', { templateUrl: 'otherModel.html', controller: 'otherModelModule.mycontroller' }).
+            otherwise({ redirectTo: '/model/' });
     }]);
 
 })();

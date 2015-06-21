@@ -1,9 +1,16 @@
 
-<div ng-controller="otherModelModule.mycontroller as vm">
+<div>
     ===============5 $http service<br />
     <p ng-repeat="v in VenderService">
-        {{v.Code}},{{v.Vendor}},<img ng-src="{{v.Img}}" width="20" height="20">
+        <button type="button" ng-click="event_click()">click me</button>
+        
+        {{v.Code}},{{v.Vendor}},<img ng-click="setImage(v.Img)" ng-src="{{v.Img}}" width="20" height="20">
     </p>
+    ===============6 $http service attach filter<br />
+    <p ng-repeat="v in VenderService">
+        {{v.Code | filter1}},{{ v | filter2}},{{v.Code}},{{v.Vendor}},<img ng-src="{{v.Img}}" width="20" height="20">
+    </p>
+
 </div>
 
-<script src="http://ccccccccc"></script>
+<!--<script src="http://ccccccccc"></script>-->

@@ -62,8 +62,8 @@ namespace ElevenDEMO.Web.Controllers
             //    Vendors = Mapper.Map<List<VendorDto>>(query)
             //};
 
-            return View("~/App/Main/views/layout/layout.cshtml"); //Layout of the angular application.
-            //return View(); //Layout of the angular application.
+            //return View("~/App/Main/views/layout/layout.cshtml"); //Layout of the angular application.
+            return View(); //Layout of the angular application.
         }
        
 

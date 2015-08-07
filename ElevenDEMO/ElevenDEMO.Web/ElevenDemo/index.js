@@ -15,7 +15,11 @@
             when('/otherModel', { templateUrl: 'otherModel.html', controller: 'otherModelModule.mycontroller as vm' }).
             when('/otherModel/:Id', { templateUrl: 'otherModel.html', controller: 'otherModelModule.mycontroller' }).
             when('/otherModel/:Id/:cc', { templateUrl: 'otherModel.html', controller: 'otherModelModule.mycontroller' }).
+            when('/forms', { templateUrl: 'forms.html', controller: 'app.fromsController as vm' }).
+            when('/BMD', { templateUrl: 'bootstrap-material-design.html', controller: 'app.bmd as vm' }).
+            when('/ASYNC', { templateUrl: 'asyncView/asyncView.html', controller: 'app.asyncView as vm' }).
             otherwise({ redirectTo: '/model/' });
+        $.material.init();
     }]);
 
 })();

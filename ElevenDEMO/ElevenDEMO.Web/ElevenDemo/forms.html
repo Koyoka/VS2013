@@ -1,0 +1,28 @@
+﻿<div>
+
+    {{vm.aa}}
+    <div ng-repeat="order in vm.orders">
+        {{order.id}},{{order.name}}
+    </div>
+    <form name="myForm" >
+        <select name="cc"  required ng-model="selectOrder" ng-options="order.name for order in vm.orders">
+            <option>---</option>
+        </select>
+        <br />
+        <input name="aa" ng-model="aa" type="text" required />
+        <span ng-show="myForm.aa.$invalid&&myForm.aa.$dirty">err</span>
+        <br />
+        <button type="button" ng-click="vm.click()">ok</button>
+        <br />
+       1. {{myForm.cc.$valid}}<br />
+        2. {{myForm.cc.$error}}<br />
+        3. {{myForm.aa.$valid}}<br />
+        4. {{myForm.aa.$error}}<br />
+        5. {{myForm.aa.$dirty}}<br />
+        6. {{myForm.$valid}}<br />
+    </form>
+    ccc
+    <div ng-include="'formsInclude.html'">
+        cc
+    </div>
+</div>
